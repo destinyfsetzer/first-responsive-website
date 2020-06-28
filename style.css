@@ -9,6 +9,7 @@ body {
 .grid-header {
     grid-area: grid-header;
 }
+
 .rowone {
     grid-area: rowone;
 }
@@ -37,6 +38,7 @@ body {
 h2 {
     margin-top: 0; 
 }
+
 .rowone {
     grid-template-rows: 1/2;
 }
@@ -78,7 +80,6 @@ hr {
 
 @media (max-width: 992px){
   .second-grid {
-   display: grid;
    grid-template-areas: 
    "grid-header grid-header grid-header"
    "rowone rowtwo rowthree";
@@ -87,7 +88,6 @@ hr {
 
 @media (max-width: 576px) {
 .second-grid {
-    display: grid;
     grid-template-areas: 
     "grid-header"
     "rowone"
